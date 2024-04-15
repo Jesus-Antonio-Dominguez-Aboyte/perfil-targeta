@@ -1,0 +1,101 @@
+/*
+  Color de fondo: hsl(185, 75%, 39%)
+  Color del texto gris: hsl(227, 10%, 46%)
+ */
+
+html{
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+
+body{
+  background-color:hsl(185, 75%, 39%);
+  font-family: sans-serif;
+  font-size: 1.3rem;
+  overflow: hidden;
+}
+
+.bg-image{
+  position: absolute;
+}
+
+.bg-image--top{
+  top: -400px;
+  left: -100px;
+}
+
+.bg-image--bottom{
+  bottom: -450px;
+  right: -100px;
+}
+
+.card{
+  background-color: white;
+  position: relative;
+  top: 20vh;
+  width: 400px;
+  height: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.card_header{
+  position: relative;
+  height: 120px;
+  text-align: center;
+}
+
+.card_header-image{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.card_header-profile{
+  position: absolute;
+  top: 90px;
+  right: 150px;
+  border-radius: 50%;
+  border: thick solid white;
+  background-color: white;
+}
+
+.card_body{
+  position: absolute;
+  top: 200px;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  border-bottom: 2px solid rgb(0 0 0 /0.1);
+}
+
+.card_text{
+  margin: 0;
+  margin-bottom: 0.5em;
+}
+
+.card_text--light{
+  color:  hsl(227, 10%, 46%);
+}
+
+.card_footer{
+  position: absolute;
+  bottom: 15px;
+  width: 100%;
+  text-align: center;
+}
+
+.card_stats{
+  display: inline-block;
+  margin: 0 .5em;
+  width:100px;
+  text-align: center;
+}
